@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.flyketch.myhandler.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_handler"
+        android:text="使用Handler进行图片轮播"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_bmob_email"
+        android:text="使用Bmob的邮箱提示功能"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_bmob_file"
+        android:text="使用Bmob的图片功能"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_sms"
+        android:text="使用短信祝福"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
